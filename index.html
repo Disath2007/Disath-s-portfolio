@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link href="styles.css" rel="stylesheet">
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("O_KRY0VOfc2eTNLsG");
+    })();
+  </script>
+
+
+  <link rel="shortcut icon" href="img/letter-d.png">
+</head>
+
+<body>
+
+  <header>
+    <div class="menu-area">
+      <a href="#home" class="logo">DISATH</a>
+
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  
+
+  <div id="home">
+
+    <div class="center">
+
+      <section class="sec_home">
+        <div class="home-img">
+          <img src="img/my.jpg" alt="Profile">
+        </div>
+        <div class="home-content">
+          <h1>Hi, I'm <span id="typed-name"></span></h1>
+          <h3>The only way to do great work is to love what you do.</h3>
+
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+
+  <div id="about">
+
+    <div class="center">
+      <section class="sec_about">
+        <div class="about-img">
+          <img src="img/avatar-1.png" alt="Profile">
+        </div>
+        <div class="about-content">
+
+          <h3>About ME</h3>
+          <p>"My name is Disath Damsutha, and I am 17 years old. I am currently pursuing a BSc (Hons) in Computing
+            (Information Systems) at LNBTI University. I am passionate about technology, and I'm developing my skills
+            in web development, IoT, and software systems as part of my studies."
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="projects center" id="projects">
+
+    <h2 class="project_h2">Projects</h2>
+
+    <div class="project-container ">
+
+      <div class="project">
+        <h3>Smart Water Filtering System</h3>
+        <img src="img/pro.jpg" alt="Project 1 Image">
+        <p>An automated water filtering system designed for household water tanks. It uses sensors to detect water
+          quality and triggers
+          filtration processes to ensure clean water supply</p>
+
+        <button>View</button>
+
+      </div>
+
+      <div class="project">
+        <h3>Calculator Using HTML CSS & JavaScript </h3>
+        <img src="img/calculater.png" alt="Project 2 Image">
+        <p>A Calculator built using HTML, CSS, and JavaScript is a simple web-based application that allows users to
+          perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+        <button>View</button>
+      </div>
+
+      <div class="project">
+        <h3>Portfolio web site</h3>
+        <img src="img/portfolio.png" alt="Project 3 Image">
+        <p>This Personal Portfolio Website is designed and developed using HTML, CSS, and JavaScript to showcase my
+          projects, and professional journey. </p>
+        <a href="#home"><button>View</button></a>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="contact" id="contact">
+
+    <h2>Contact Me</h2>
+    <div class="center">
+      <section class="sec_contact">
+        <form id="form">
+          <div class="field">
+            <label for="from_name">Your Name:</label>
+            <input type="text" name="from_name" id="from_name" required>
+          </div>
+ 
+          <div class="field">
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          <div class="field">
+            <label for="reply_to">Your Email:</label>
+            <input type="email" name="reply_to" id="reply_to" required>
+          </div>
+
+          <input type="submit" id="button" value="Send Email">
+        </form>
+      </section>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2024 Disath. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/disath_damsutha?igsh=OXQyaHQzc3ppYjN5&utm_source=qr" target="blank">
+        <img src="social/instagram.png" alt="">
+      </a>
+      <a href="https://www.tiktok.com/@disathdamsutha?_t=8q7NPgF6pjM&_r=1" target="blank">
+        <img src="social/tik-tok.png" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/disath-damsutha-b844052b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="blank">
+        <img src="social/linkedin-logo.png" alt="">
+      </a>
+      <a href="https://wa.me/94715532590" target="blank">
+        <img src="social/whatsapp.png" alt="">
+      </a>
+    </div>
+  </footer>
+
+
+  <a href="#top" data-back-to-top class="back-to-top">↑</a>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
